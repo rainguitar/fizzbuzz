@@ -26,4 +26,9 @@ describe Fizzbuzz do
     it { subject.calculate(75).should eq 'GitHub' }
     it { subject.calculate(77).should eq 'GitHub' }
   end
+  context 'Eight number' do
+    it { subject.calculate(8).should eq 'eight' }
+    it { subject.calculate(32).should eq 'eight' }
+    it { subject.calculate(64).should eq 'eight' }
+  end
 end
